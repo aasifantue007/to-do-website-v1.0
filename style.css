@@ -64,3 +64,24 @@ main{
     color: black;
     background-color: #fed2ce !important;
 }
+
+.time-show{
+    font-size: 30px;
+    background-color: #FC766AFF ;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px gray;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: bold;
+    color: white;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-icon{
+    width: 40px;
+    margin-right: 10px;
+
+}
