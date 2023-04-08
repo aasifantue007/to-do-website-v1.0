@@ -4,6 +4,8 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Tilt Neon', cursive;
+    background-color: #feeace;
+    
     
 }
 
@@ -17,6 +19,15 @@ main{
 
 
 }
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #feeace;
+}
+
 .box{
     width: 600px;
     min-height: 500px;
@@ -84,4 +95,25 @@ main{
     width: 40px;
     margin-right: 10px;
 
+}
+
+.quote-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #feeace;
+    padding-top: 30px;
+}
+
+.quote-box{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+}
+.auther{
+    font-size: 10px;
+}
+
+.quote{
+    font-size: 30px;
 }
