@@ -6,6 +6,10 @@
     font-family: 'Tilt Neon', cursive;   
 }
 
+body{
+    background-color: #febbb5;
+}
+
 
 .box-container{
     display: flex;
@@ -76,7 +80,7 @@
     text-align: center;
     font-family: 'Tilt Neon', cursive;
     font-weight: bold;
-    color: black;
+    color:rgb(57, 57, 57);
     width: auto;
     display: flex;
     align-items: center;
@@ -90,21 +94,23 @@
 }
 
 .quote-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background-color: #febbb5;
-    padding-top: 30px;
+    padding-top: 20px;
+    position: relative;
+    color:rgb(57, 57, 57);
+    padding-bottom: 20px;
+
 }
 
-.quote-box{
-    padding: 10px;
-    text-align: center;
-    font-family: 'Tilt Neon', cursive;
+.quote-1{
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
 }
-.quote{
-    font-size: 30px;
-}
-#btn{
-    margin-top: 30px;
+
+.quote-2{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
 }
